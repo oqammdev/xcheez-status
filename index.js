@@ -1,8 +1,6 @@
-require("dotenv").config()
 const Discord = require("discord.js")
 let webhook = new Discord.WebhookClient(process.env.id, process.env.secret)
 let client = new Discord.Client()
-client.login(process.env.token)
 
 
 const xcheezbot = client.users.cache.get("768603762851840012")
@@ -21,3 +19,5 @@ webhook.send(embed).then(msg =>{
         msg.edit(embed)
     }, 5000)
 })
+
+client.login(process.env.token)
