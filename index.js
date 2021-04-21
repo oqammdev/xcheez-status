@@ -10,6 +10,7 @@ const xcheezgens = client.users.cache.get("760785837188448306")
 
 let embed = new Discord.MessageEmbed()
 .setColor("BLUE")
+.setDescription("Bots Status")
 //.addField("XcHeeZ Bot", xcheezbot.presence.status === "online"?"**🟢ONLINE**":"**🔴OFFLINE**")
 //.addField("XcHeeZ Utilities", xcheezutils.presence.status === "online"?"**🟢ONLINE**":"**🔴OFFLINE**")
 //.addField("XcHeeZ Generators", xcheezgens.presence.status === "online"?"**🟢ONLINE**":"**🔴OFFLINE**")
